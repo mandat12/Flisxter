@@ -2,9 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:elevation="15dp">
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -23,7 +23,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:text="Sonic the Hedgehog"
+        android:text="@string/title"
+        android:textColor="@color/white"
         android:textSize="24sp" />
 
     <TextView
@@ -34,5 +35,10 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:text="Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination." />
+        android:enabled="false"
+        android:freezesText="false"
+        android:singleLine="false"
+        android:text="@string/overview_Text"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="20dp" />
 </RelativeLayout>
