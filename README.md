@@ -19,7 +19,7 @@
 
 ### App Walkthough GIF
 
-<img src="https://github.com/mandat12/Flisxter/blob/master/Walkthrough.gif" width=250><br>
+<img src="https://github.com/mandat12/Flisxter/blob/master/Walkthrough1.gif" width=250><br>
 
 
 
